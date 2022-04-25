@@ -1,0 +1,7 @@
+{
+  "name": "Frontera",
+  "type": "custom",
+  "integrations": {
+    "cordova": {}
+  }
+}
