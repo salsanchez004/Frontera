@@ -1,0 +1,42 @@
+@font-face {
+  font-family: quadonNormal;
+  src: url("https://www.vmasideas.online/frontera/fonts/Quadon.otf");
+  font-style:normal;
+}
+
+@font-face {
+  font-family: quadonBold;
+  src: url("https://www.vmasideas.online/frontera/fonts/QuadonBold.otf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: quadonItalic;
+  src: url("https://www.vmasideas.online/frontera/fonts/QuadonRegularItalic.otf");
+  font-style: italic, oblique;
+
+}
+
+@font-face {
+  font-family: quadonBoldItalic;
+  src: url("https://www.vmasideas.online/frontera/fonts/QuadonBoldItalic.otf");
+  font-style: italic, oblique;
+  font-weight: bold;
+
+}
+
+@font-face {
+  font-family: quadonextraBold;
+  src: url("https://www.vmasideas.online/frontera/fonts/QuadonExtraBold.otf");
+}
+
+
+@font-face {
+  font-family: quadonMedium;
+  src: url("https://www.vmasideas.online/frontera/fonts/QuadonMedium.otf");
+}
+
+@font-face {
+  font-family: Intro;
+  src: url("https://www.vmasideas.online/frontera/fonts/Intro.otf");
+}

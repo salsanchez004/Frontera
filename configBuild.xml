@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "app.frontera.vmasideas.com"
+    versionCode = "1"
+    version     = "1.0.0" >
+
+<!-- versionCode is optional and Android only -->
+
+  <name>Frontera</name>
+
+  <description>
+      Frontera: Arma tu parrillada
+  </description>
+
+  <author href="https://www.vmasideas.com" email="soporte@vmasideas.com">
+      VMasIdeas
+  </author>
+  <plugin name="cordova-plugin-whitelist" />
+  <plugin name="cordova-plugin-camera" />
+  <plugin name="cordova-plugin-geolocation" />
+  
+  <!--
+ <plugin name="cordova-plugin-googlemaps">
+    <variable name="API_KEY_FOR_ANDROID" value="AIzaSyC3VYcOpTPgtKaOy6NVmuVWyELvIrJTQ0I" />
+    <variable name="API_KEY_FOR_IOS" value="AIzaSyC3VYcOpTPgtKaOy6NVmuVWyELvIrJTQ0I)" />
+  </plugin>
+  -->
+  <plugin name="cordova-plugin-facebook4">
+  <!--<plugin spec="https://github.com/Wizcorp/phonegap-facebook-plugin.git" src="git">-->
+      <param name="APP_ID" value="751241545273747" />
+      <param name="APP_NAME" value="Frontera" />
+  </plugin>
+
+  <access origin="https://www.vmasideas.online/frontera/app" />
+  
+  <!--
+  <icon src="icon.png" />
+  -->
+
+  	<platform name="android">
+  		<icon src="icon.png" width="180" height="180" />
+  		<icon src="icon.png"  qualifier="ldpi" />
+		<icon src="icon.png"  qualifier="mdpi" />
+		<icon src="icon.png"  qualifier="hdpi" />
+		<icon src="icon.png"  qualifier="xhdpi" />
+		<icon src="icon.png"  qualifier="xxhdpi" />
+		<icon src="icon.png"  qualifier="xxxhdpi" />
+		<icon src="icon.png"  qualifier="fr-xxhdpi" />
+	</platform>
+	
+  	<icon src="icon-1024.png" width="1024" height="1024" />
+	<platform name="ios">
+      <icon src="icon.png" gap:platform="ios" width="109" height="109" />
+      <icon src="icon-60@2x.png" gap:platform="ios" width="120" height="120" />
+      <icon src="icon-60@3x.png" gap:platform="ios" width="180" height="180" />
+      <icon src="icon-76.png" gap:platform="ios" width="76" height="76" />
+      <icon src="icon-76@2x.png" gap:platform="ios" width="152" height="152" />
+      <icon src="icon-40@2x.png" gap:platform="ios" width="80" height="80" />
+      <icon src="icon-40@3x.png" gap:platform="ios" width="120" height="120" />
+      <icon src="icon-1024.png" gap:platform="ios" width="1024" height="1024" />
+	</platform>
+
+	
+	<preference name="orientation" value="portrait" />
+	<preference name="loadUrlTimeoutValue" value="700000" />
+	<preference name="android-minSdkVersion" value="22" />
+	<preference name="android-targetSdkVersion"  value="26" />
+	<preference name="phonegap-version" value="cli-7.1.0" />
+</widget>

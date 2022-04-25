@@ -1,0 +1,364 @@
+.notifyjs-container {
+	width: 275px;
+}
+.notifyjs-bootstrap-base {
+	white-space: normal!important
+}
+.tamLogo {
+	max-width: 500px;
+}
+.social-link:hover {
+	text-decoration: none !important;
+	color: white
+}
+.facebook-link {
+	background-color: #3C5A99;
+	padding: 8px 5px 8px 5px;
+}
+.social-link {
+	margin: 0 5% 0 0;
+	color: white;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+	box-sizing: border-box;
+	cursor: pointer
+}
+
+.social-link2:hover {
+	text-decoration: none !important;
+	color: black
+}
+.google-link {
+	background-color: #7d7d7d;
+	padding: 8px 5px 8px 5px;
+}
+.social-link2 {
+	margin: 0 5% 0 0;
+	color: black;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+	box-sizing: border-box;
+	cursor: pointer
+}
+
+.social-link3:hover {
+	text-decoration: none !important;
+	color: white
+}
+.apple-link {
+	background-color: #000000;
+	padding: 8px 5px 8px 5px;
+}
+.social-link3 {
+	margin: 0 5% 0 0;
+	color: white;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+	box-sizing: border-box;
+	cursor: pointer
+}
+
+.contact-form .form-control::placeholder {
+	color: #a5a5a5;
+}
+.contact-form .form-control {
+	color: white;
+}
+
+#continuar1, #continuar2, #continuar3 {
+	width: 20%
+}
+.imgTitle {
+	width: 40px;
+}
+
+#panelIDer, #panelIIzq {
+	background: #00000051;
+	margin: 20px;
+	border-radius: 12px;
+	color: white;
+}
+
+.numInv {
+	font-size: 70px;
+	letter-spacing: 0px;
+	min-width: 70px;
+	color: #d9543b;
+	padding-left: 5px;
+}
+
+.invisibleSmall {
+	display: block;
+}
+
+.visibleSmall {
+	display: none;
+}
+
+.txtDir {
+	left: 0px!important; 
+	top: 50px!important;
+}
+
+.heightMapaSmall {
+	height: 290px!important;
+}
+
+#menuArma > div > img:hover {
+	max-width: 65%;
+}
+
+#menuTips > div > img:hover {
+	max-width: 85%;
+}
+
+#menuProductos > div > img:hover {
+	max-width: 83%;
+}
+
+#menuParrillero > div > img:hover {
+	max-width: 66%;
+}
+
+.flechaMenu:hover {
+	max-width: 80%;
+} 
+
+.flechaAtras:hover {
+	max-width: 25px;
+}
+
+.fancybox-button--share, .fancybox-button--fullscreen {
+	display:none;
+}
+
+.owl-carouselTiendas > div.owl-stage-outer > div.owl-stage {
+	display: flex;
+	align-items: center;
+}
+
+.fondoRegBienvenida {
+	width: 95%;
+    background-color: #00000082;
+	margin: 0 auto;
+}
+
+.imgBienvenida {
+	width: 80%;
+}
+
+.continuarSR {
+	color: #c8cacc;
+	text-align: right;
+	font-size: 90%;
+	padding-bottom: 15px;
+}
+
+@media (max-width: 1024px) {
+	.invisibleSmall {
+		display: none!important;
+	}
+	.visibleSmall {
+		display: block;
+	}
+}
+
+@media (min-width: 501px) and (max-width: 800px) {
+	.heightMapaSmall {
+		height: 300px!important;
+	}
+}
+
+/* resolución celular */
+@media (max-width: 500px) {
+	.tamLogo {
+		max-width: 100%
+	}
+	.margenInferior {
+		margin-bottom: 25px;
+	}
+	.contact-form .form-control {
+		font-size: 120%;
+	}
+	#user_genderM, #user_genderH {
+		width: 15%!important;
+	}
+	#continuar1, #continuar2, #continuar3 {
+		width: 40%
+	}
+	.badger-accordion__trigger-title {
+		display: flex;
+		align-items: center;
+	}
+	.imgTitle {
+		width: 14%;
+		height: auto;
+	}
+	.labelTitle {
+		width: 82%;
+		padding-left: 10px;
+		margin-bottom: 0px!important;
+	}
+	.invisibleSmall {
+		display: none!important;
+	}
+	.visibleSmall {
+		display: block;
+	}
+	.margenSmall {
+		margin-left: -25px;
+	}
+	.catImgWidth {
+		width: 120px;
+	}
+	.margenSupSmall {
+		margin-top: 20px;
+	}
+	.widthNumProdSmall {
+		width:20%;
+	}
+	.margenNotaSmall {
+		margin-top: 15px;
+    	margin-bottom: 15px;
+	}
+	.widthBtnSmall {
+		width: 60%!important;
+	}
+	.heightMapaSmall {
+		height: 300px!important;
+	}
+	.paddingTopMapa {
+		padding-top: 20px!important;
+	}
+}
+
+@media (max-width: 320px) {
+	#user_genderM, #user_genderH {
+		width: 10%!important;
+	}
+	.margenSmall {
+		margin-left: -50px;
+	}
+	.widthBtnSmall {
+		width: 70%!important;
+	}
+}
+
+/* TABLET */
+@media (min-width: 768px) and (max-width: 1024px) {
+	#menuArma, #menuTips, #menuProductos, #menuParrillero, #menuTiendas {
+		height: 230px!important;
+		margin-left: 30px!important;
+	}
+	.cabeceraSlide {
+		height: 130px!important;
+	}
+	.imgTitle {
+		display: inline-block!important;
+	}
+	.visibleTablet {
+		display: block!important;
+	}
+	.invisibleTablet {
+		display: none!important;
+	}
+	.fontSizeTablet {
+		font-size: 22px!important;
+		line-height: 22px!important;
+	}
+	.loader-inner > img {
+		width: 60%;
+		max-width: 100%;
+	}
+	#menuTips > div > img {
+		margin-top: -15px!important;
+	}
+	.containerProd {
+		max-width: 100%!important;
+	}
+	#bbq_host_message {
+		font-size: 130%;
+	}
+	#parrillero_tc {
+		width:7%!important;
+		padding-bottom: 20px;
+	}
+	#btnMoverFijarMapa {
+		width: 25%!important;
+		font-size: 16px!important;
+		padding-top: 10px;
+	}
+	.imgBienvenida {
+		width: 70%;
+		margin-top: 50px;
+	}
+	#tcRBContainer {
+		width:100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+		margin-bottom: 20px;
+	}
+	.continuarSR {
+		padding-top:20px;
+	}
+	.espacioBL {
+		display: none;
+	}
+	.botonesLoginBienvenida {
+		width:50%;
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+	.botonesLoginBienvenidaCA {
+		width:33%;
+		flex: 0 0 33%;
+		max-width: 33%;
+	}
+    .margenSuperiorRegistro {
+        margin-top: 10px;
+    }
+	.labelTitle {
+		margin-bottom: 0px!important;
+	}
+}
+
+@media (min-width: 1024px) and (max-width: 1024px) {
+	#menuArma, #menuTips, #menuParrillero, #menuProductos, #menuTiendas {
+		margin-left: 50px!important;
+	}
+	.anchoImgTablet {
+		width:64%!important;
+	}
+	#menuTiendas {
+		background-position: 0% -20px!important;
+	}
+	#menuArmaF, #menuTipsF, #menuParrilleroF, #menuTiendasF, #menuProductosF {
+		flex: 0 0 6.333333%!important;
+	}
+	.cabeceraSlide {
+		height: 180px!important;
+	}
+	.loader-inner > img {
+		width: 60%;
+		max-width: 100%;
+		margin-top: 80px;
+	}
+	#bbq_host_message {
+		font-size: 130%;
+	}
+	#parrillero_tc {
+		width:5%!important;
+		padding-bottom: 25px;
+	}
+	#btnMoverFijarMapa {
+		width: 25%!important;
+		font-size: 16px!important;
+		padding-top: 10px;
+	}
+}
